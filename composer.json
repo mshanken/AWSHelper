@@ -1,0 +1,12 @@
+{
+    "name":        "mshanken/awshelper",
+    "type": "kohana-module",
+    "description": "Kohana 3.3 module that wraps AWS",
+    "homepage":    "",
+    "license":     "Proprietary",
+    "keywords":    ["kohana", "aws", "security"],
+    "require": {
+		"kohana/cache"      : "3.3.*",
+		"aws/aws-sdk-php": "2.4.*"
+    }
+}
