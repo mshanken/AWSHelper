@@ -2,7 +2,9 @@
 
 
 return array(
-    'credential_url' => 'http://169.254.169.254/latest/meta-data/iam/security-credentials/s3access'
+    'config' => array(
+        'default_cache_config' => APPPATH.'cache/aws'
+    ),
 );
 
 ?>          
